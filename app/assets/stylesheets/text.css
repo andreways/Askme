@@ -1,0 +1,29 @@
+body {
+  color: #190202;
+  font-family: 'Helvetica', Courier, monospace;
+}
+
+a {
+  color: #8b0b0b;
+}
+
+.title-lg {
+  font-size: 175%;
+}
+
+.title-m,
+.title {
+  font-size: 150%;
+}
+
+.title-sm {
+  font-size: 125%;
+}
+
+.text-sm {
+  font-size: 80%;
+}
+
+.text-gray {
+  color: #a0a0a0;
+}

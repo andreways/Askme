@@ -1,0 +1,21 @@
+<div class = "container">
+  <p class= "mt"> 
+  <%= link_to "Создать новый вопрос", new_question_path, class: "button button-main" %>
+  </p>
+</div>
+
+<div class = "container">
+  <h2 class="title-lg mb">Новый вопрос</h2>
+  <%= render 'form', question: @question %>
+</div>
+
+
+<div class= "container mt-sm">
+  <h2 class= "title-lg"> Все вопросы </h2>
+</div>
+
+<% @questions.each do |question|%>
+  <div class= "mt-sm container">
+    <%= render question %>
+  </div>
+<%end%>
